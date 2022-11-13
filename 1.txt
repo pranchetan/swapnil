@@ -1,1 +1,2 @@
 touch {1..10}
+echo "my name is chetan"
