@@ -1,4 +1,4 @@
-touch {1..10}
+sdtouch {1..10}
 echo "chetan"
 hello 
 ji
@@ -6,3 +6,4 @@ ji
 helooufjdhdhdfhdfhd
 change 2
 rerhehh
+vgds gfrct
