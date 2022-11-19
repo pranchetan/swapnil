@@ -13,8 +13,8 @@ pipeline {
                     }
 					 stage('bulid') {
                  steps {
-                    sh 'touch x.txt'
 					sh 'echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html'
+					sh 'chmod 777 /var/www/html/index.html'
                        }
                     }		
 				}
