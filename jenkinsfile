@@ -1,0 +1,15 @@
+pipeline {
+    agent {
+	   node {
+         label 'httpd'
+           customWorkspace '/var/www/html'
+             }
+            stages {
+              stage('install') {
+                 steps {
+                    sh 'yum install httpd'
+                       }
+                    }					   
+                }
+			}
+        }			
